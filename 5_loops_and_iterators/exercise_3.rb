@@ -5,8 +5,8 @@
 number = gets.chomp.to_i
 
 def countdown(number)
-  if number >= 0
-    puts number
+  puts number
+  if number > 0
     countdown(number - 1)
   end
 end
